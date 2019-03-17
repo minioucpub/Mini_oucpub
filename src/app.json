@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/index",
+    "pages/second/second"
+  ],
+  "window": {
+    "navigationBarTitleText": "Demo",
+    "navigationBarBackgroundColor":"#F12"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "img/cake.png",
+        "selectedIconPath": "img/cake.png"
+      },
+      {
+        "pagePath": "pages/logs/index",
+        "text": "日志",
+        "iconPath": "img/波板糖.png",
+        "selectedIconPath": "img/波板糖.png"
+      },
+      {
+        "pagePath": "pages/second/second",
+        "text": "其他",
+        "iconPath": "img/香菇脆.png",
+        "selectedIconPath": "img/香菇脆.png"
+      }     
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}
